@@ -1,0 +1,1 @@
+import{j as e}from"./index-BEjv2IXf.js";function s(){return e.jsx("div",{className:"overflow-hidden relative isolate px-6 pt-14 lg:px-8 justify-center bg-white",children:e.jsx("span",{className:"sr-only",children:"About Page"})})}export{s as default};
