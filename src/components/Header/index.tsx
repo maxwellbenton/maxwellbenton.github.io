@@ -5,7 +5,7 @@ import mediumLogo from "../../assets/medium.png";
 function Header() {
   return (
     <header
-      className={`header overflow-hidden absolute inset-x-0 -top-0 z-50`}
+      className={`header flex-none inset-x-0 z-50`}
     >
       <nav
         className="flex justify-between p-6"

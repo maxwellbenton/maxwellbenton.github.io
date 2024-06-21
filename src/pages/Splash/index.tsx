@@ -5,13 +5,9 @@ import { ME, TITLE } from "../../constants";
 
 function Splash() {
   return (
-    <div className={`splash bg-white position-absolute top-0 bg-[url(${farmFade})]`}>
-      <div className="isolate px-6 pt-14 lg:px-8 flex justify-center overflow-hidden">
-        <div
-          className="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl"
-          aria-hidden="true"
-        ></div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-28 lg:py-48">
+    <div className={`splash grow w-screen mbg-white position-absolute top-0 bg-[url(${farmFade})]`}>
+      <div className="px-6 lg:px-6 pb-10 flex justify-center items-center h-full">
+        <div className="mx-auto max-w-2xl ">
           <div className="mb-8 flex justify-center">
             <div
               className={`relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 flex flex-col items-center lg:flex-row`}
@@ -41,17 +37,13 @@ function Splash() {
               alt="Brand Logo"
             />
             <div className="mx-4 flex flex-col text-left text-center lg:text-left">
-              <h1 className={`text-5xl font-bold tracking-tight text-gray-900`}>
+              <h1 className={`text-4xl font-bold tracking-tight text-gray-900`}>
                 {ME}
               </h1>
-              <p className={`text-3xl text-gray-600 `}>{TITLE}</p>
+              <p className={`text-2xl text-gray-600 `}>{TITLE}</p>
             </div>
           </div>
         </div>
-        <div
-          className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-          aria-hidden="true"
-        ></div>
       </div>
     </div>
   );
