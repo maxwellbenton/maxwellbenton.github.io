@@ -52,3 +52,5 @@ export type UserChannelContent = {
   userChannel: UserChannel;
   userContent: UserContentObject[];
 };
+
+export type Experiment = { id: string, name: string };

@@ -1,6 +1,6 @@
 import { useRouteError } from "react-router-dom";
 
-function isError(error: any): error is Error {
+function isError(error: unknown): error is Error {
   return error instanceof Error;
 }
 
