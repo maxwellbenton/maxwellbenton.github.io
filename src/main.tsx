@@ -2,25 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { About, Splash, App } from "./lazy.tsx";
-import Error from "./pages/Error/index.tsx";
+import App from "./App.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    children: [
-      {
-        path: "",
-        element: <Splash />,
-        errorElement: <Error />,
-      },
-      {
-        path: "about",
-        element: <About />,
-        errorElement: <Error />,
-      }
-    ],
   },
 ]);
 
