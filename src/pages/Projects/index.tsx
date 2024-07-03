@@ -63,8 +63,7 @@ export default function Projects() {
           <h5 className={boldTextStyle}>
             I developed a post-messaging package and its external signaling
             contracts. This package handles the communication between browser windows
-            owned by separate entities, one owned by Mastercard and the other by
-            Samsung.
+            owned by separate entities.
           </h5>
         </div>
       </div>
