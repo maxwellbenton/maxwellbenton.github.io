@@ -11,4 +11,4 @@ export const textWrapperStyleAlt =
 export const boldTextStyle = "text-xl font-bold tracking-tight text-gray-900";
 export const h3Style = "text-2xl mt-2"
 export const textStyle = "text-lg text-left md:max-w-xl tracking-tight mt-2"
-export const sectionContainerStyle = "flex flex-col items-start justify-center mx-8";
+export const sectionContainerStyle = "flex flex-col items-start justify-center mx-4 lg:mx-8";

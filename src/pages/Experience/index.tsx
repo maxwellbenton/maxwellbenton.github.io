@@ -6,8 +6,7 @@ export default function Experience() {
       <h3 className={h3Style}>Hi, I'm Max!</h3>
       <div className="my-6">
         <p className={textStyle}>
-          I am a senior front-end software engineer. I build stuff
-          online and I can write about building stuff. I also like to garden.
+          I build stuff online.
         </p>
       </div>
 
