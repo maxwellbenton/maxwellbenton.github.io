@@ -13,7 +13,7 @@ function Header() {
       >
         <div className="flex lg:flex-1">
           <a
-            href="https://github.com/maxwellrbenton"
+            href="https://github.com/maxwellbenton"
             className={`flex flex-col items-center mx-2 text-sm font-semibold leading-6 text-gray-900`}
           >
             <img src={githubLogo} alt="GitHub Logo" className="w-8 h-8" />
