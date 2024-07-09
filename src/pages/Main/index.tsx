@@ -2,6 +2,15 @@ import profilePhoto from "../../assets/profile.png";
 import resume from "../../assets/maxwell-benton-resume.pdf";
 import { ME, TITLE } from "../../constants";
 import { Experiment } from "../../types";
+// import * from 'gnome-components';
+declare global {
+  // eslint-disable-next-line @typescript-eslint/no-namespace
+  namespace JSX {
+      interface IntrinsicElements {
+          'gc-chest': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+      }
+  }
+}
 
 function Main({
   scrolled,
@@ -12,6 +21,7 @@ function Main({
   addExperiment: ({ experiment }: { experiment: Experiment }) => void;
   experiments: Experiment[];
 }) {
+  // console.warn(Gnomes)
   return (
     <div
       className={`splash grow h-screen w-screen flex flex-col justify-start items-center sm:justify-start lg:justify-start lg:items-center mx-auto max-w-2xl`}
@@ -60,9 +70,10 @@ function Main({
           }
           className="hidden sm:hidden md:block lg:hidden md:mt-24 text-gray-300 hover:cursor-pointer hover:font-bold"
         >
-          {experiments?.find((exp) => exp.name === "secret")
-            ? "Secret experiment mode activated"
-            : "Activate secret medium screen message"}
+          <gc-chest></gc-chest>
+          {experiments?.find((exp) => exp.name === "secret") ? (
+            "Secrets activated!"
+          ) : "Activate secrets"}
         </div>
       </div>
       <div
