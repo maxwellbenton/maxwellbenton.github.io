@@ -17,6 +17,7 @@ function App() {
   function addExperiment({ experiment }: { experiment: Experiment }) {
     setExperiments([...experiments, { ...experiment }]);
   }
+  
   return (
     <div
       onScroll={updateScrolled}
