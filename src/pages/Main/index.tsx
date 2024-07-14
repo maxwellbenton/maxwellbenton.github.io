@@ -28,7 +28,7 @@ function Main({
           experiments={experiments}
         />
       </div>
-      <ScrollForMore scrolled={scrolled} />
+      <ScrollForMore scrolled={scrolled || !!experiments?.length} />
     </div>
   );
 }

@@ -32,11 +32,18 @@ export default function GnomeChat() {
 
   return (
     <>
-      {!started && <button onClick={() => setStarted(true)}>Activate Gnomes</button>}
+      {!started && (
+        <button
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          onClick={() => setStarted(true)}
+        >
+          Activate Gnomes
+        </button>
+      )}
       {started && (
         <div className="flex flex-row">
           <Gnome></Gnome>
-          <Gnome facing="left" gnome="1"></Gnome>w
+          <Gnome facing="left" gnome="1"></Gnome>
           {/* <Mushroom></Mushroom>
           <Mushroom></Mushroom>
           <Mushroom></Mushroom> */}

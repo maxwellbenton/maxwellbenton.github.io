@@ -39,6 +39,11 @@ export default function SecretSection({
 }) {
   return (
     <>
+      {experiments?.find((exp) => exp.name === "secret") && (
+        <div className="block sm:block md:hidden flex flex-row justify-center items-center -my-24">
+          <GnomeChat></GnomeChat>
+        </div>
+      )}
       <div
         onClick={() =>
           addExperiment({
@@ -56,11 +61,6 @@ export default function SecretSection({
           ? "Secrets activated!"
           : "Activate secrets"}
       </div>
-      {experiments?.find((exp) => exp.name === "secret") && (
-        <div className="block sm:block md:hidden flex flex-row justify-center items-center my-2">
-          <GnomeChat></GnomeChat>
-        </div>
-      )}
     </>
   );
 }
