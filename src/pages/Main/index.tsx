@@ -3,7 +3,6 @@ import SecretSection from "../../components/SecretSection";
 import OpenForWork from "../../components/OpenForWork";
 import Splash from "../../components/Splash";
 import ScrollForMore from "../../components/ScrollForMore";
-// import * from 'gnome-components';
 
 function Main({
   scrolled,

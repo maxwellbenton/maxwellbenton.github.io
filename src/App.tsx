@@ -3,7 +3,6 @@ import Header from "./components/Header";
 import Experience from "./pages/Experience";
 import Main from "./pages/Main";
 import Projects from "./pages/Projects";
-// import About from "./pages/About";
 import { Experiment } from "./types";
 
 function App() {
@@ -33,9 +32,6 @@ function App() {
       <div className={"static w-screen bg-slate-200"}>
         <Projects />
       </div>
-      {/* <div className={"static w-screen bg-slate-200"}>
-        <About />
-      </div> */}
     </div>
   );
 }

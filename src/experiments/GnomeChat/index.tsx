@@ -14,21 +14,8 @@ function Gnome({ facing, gnome }: { facing?: string; gnome?: string }) {
   );
 }
 
-// function Mushroom() {
-//   return (
-//     <div className="px-2">
-//       <gc-mushroom></gc-mushroom>
-//     </div>
-//   );
-// }
-
 export default function GnomeChat() {
   const [started, setStarted] = useState(false);
-  // const [chat, setChat] = useState([]);
-
-  // function browserSupportsGnomes() {
-  //   return window.ai ? true : false;
-  // }
 
   return (
     <>
@@ -44,9 +31,6 @@ export default function GnomeChat() {
         <div className="flex flex-row">
           <Gnome></Gnome>
           <Gnome facing="left" gnome="1"></Gnome>
-          {/* <Mushroom></Mushroom>
-          <Mushroom></Mushroom>
-          <Mushroom></Mushroom> */}
         </div>
       )}
     </>
