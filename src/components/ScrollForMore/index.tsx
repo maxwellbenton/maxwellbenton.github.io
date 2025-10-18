@@ -1,7 +1,7 @@
 export default function ScrollForMore({ scrolled }: { scrolled: boolean }) {
   return (
     <div className={`${scrolled && "hidden"} absolute bottom-2 flex flex-row`}>
-      Scroll down for more
+      Explore my work below
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
