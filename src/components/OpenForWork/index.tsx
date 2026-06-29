@@ -6,7 +6,7 @@ export default function OpenForWork() {
       <div
         className={`relative rounded-full flex flex-col sm:flex-col md:flex-row lg:flex-row items-center px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20`}
       >
-        <span className="px-1">Looking for a skilled front-end engineer?</span>
+        <span className="px-1">Looking for a front-end engineer or technical lead?</span>
         <a
           href={resume}
           download

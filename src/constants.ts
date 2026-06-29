@@ -1,2 +1,2 @@
 export const ME = 'Maxwell Benton'
-export const TITLE = 'Front-End Software Engineer'
+export const TITLE = 'Technical Lead & Front-End Engineer'

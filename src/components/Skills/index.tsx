@@ -8,13 +8,13 @@ export default function Skills() {
           <strong>Languages:</strong> JavaScript, TypeScript, Ruby, HTML5, CSS3
         </p>
         <p className={textStyle}>
-          <strong>Frontend:</strong> React, Vue.js, Tailwind CSS, Vite, Webpack
+          <strong>Front-End:</strong> React, Vue.js, Microfrontends, Tailwind CSS, Accessibility (WCAG), Vite, Webpack
         </p>
         <p className={textStyle}>
-          <strong>Backend & Tools:</strong> Ruby on Rails, Node.js, Git, Playwright, Jenkins, CI/CD
+          <strong>Backend & Tools:</strong> Ruby on Rails, Node.js, REST APIs, Docker, AWS, Git, GitHub Copilot
         </p>
         <p className={textStyle}>
-          <strong>Methodologies:</strong> Agile Development, Scrum, Test-Driven Development
+          <strong>Methodologies & Testing:</strong> Agile, Scrum, CI/CD (Jenkins), TDD, BDD, Jest, Vitest, Cypress, Playwright
         </p>
       </div>
     </div>

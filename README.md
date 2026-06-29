@@ -1,16 +1,16 @@
 # Maxwell Benton - Portfolio Website
 
-> Personal portfolio showcasing my work as a Senior Frontend Engineer and Technical Lead
+> Personal portfolio showcasing my work as a Technical Lead and Front-End Engineer
 
 🌐 **Live Site:** [www.maxwellbenton.com](https://www.maxwellbenton.com)
 
 ## About
 
-This is my personal portfolio website built with modern web technologies to showcase my experience as a Technical Lead and Senior Frontend Engineer. The site features my recent projects, technical skills, and professional background.
+This is my personal portfolio website built with modern web technologies to showcase my experience as a Technical Lead and Front-End Engineer. The site features my recent projects, technical skills, and professional background.
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React 18, TypeScript
+- **Front-End:** React 18, TypeScript
 - **Styling:** Tailwind CSS
 - **Build Tool:** Vite
 - **Deployment:** GitHub Pages
