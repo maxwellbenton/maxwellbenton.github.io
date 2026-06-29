@@ -1,6 +1,6 @@
 import githubLogo from "../../assets/github.png";
 import linkedinLogo from "../../assets/linkedin.png";
-import mediumLogo from "../../assets/medium.png";
+// import mediumLogo from "../../assets/medium.png";
 
 function Header() {
   return (
@@ -19,13 +19,13 @@ function Header() {
             <img src={githubLogo} alt="GitHub Logo" className="w-8 h-8" />
             <p className="text-xs">GitHub</p>
           </a>
-          <a
+          {/* <a
             href="https://medium.com/@maxwellbenton"
             className={`flex flex-col items-center mx-2 text-sm font-semibold leading-6 text-gray-900`}
           >
             <img src={mediumLogo} alt="Medium Logo" className="w-8 h-8" />  
             <p className="text-xs">Medium</p>
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/maxwellbenton/"
             className={`flex flex-col items-center mx-2 text-sm font-semibold leading-6 text-gray-900`}
